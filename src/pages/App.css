@@ -19,12 +19,12 @@ body{
 .logo{
     max-width: 100%;
     overflow: hidden;
-    transition: all 0.4s;
+    /* transition: all 0.4s; */
 }
 
-.logo:hover{
+/* .logo:hover{
     transform: scale(1.05, 1.05);
-}
+} */
 
 .logo img{
     width: 70%;
