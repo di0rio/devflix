@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import "./App.css";
 import MovieCard from "../components/movieCard/movieCard";
+import Footer from "../components/footer/footer";
 
 import logo from "../assets/devflix.png";
 import searchIcon from "../assets/search.svg";
@@ -58,6 +59,7 @@ const App = () => {
           <h2>Nenhum filme encontrado 😥</h2>
         </div>
       )}
+      <Footer link={"https://github.com/di0rio"}>di0rio</Footer>
     </div>
   );
 };
