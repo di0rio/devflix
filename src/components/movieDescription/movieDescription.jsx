@@ -3,7 +3,7 @@ import styles from "./movieDescription.module.css";
 import devFlix from "/favicon.png";
 
 const MovieDesc = ({ movies, click }) => {
-  const apiKey = "e4d577fa";
+  const apiKey = "b5835fbb";
   const apiUrl = `http://omdbapi.com/?apikey=${apiKey}&i=${movies.imdbID}`;
   const [movieDesc, setMovieDesc] = useState([]);
 
