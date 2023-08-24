@@ -12,7 +12,7 @@ const MovieDesc = ({ movies, click }) => {
     fetch(apiUrl)
       .then((response) => response.json())
       .then((data) => setMovieDesc(data))
-      .catch((error) => console.log("Erro: ", error));
+      .catch((error) => console.error("Erro: ", error));
   }, [apiUrl]);
   const movie = movieDesc;
 
@@ -22,7 +22,7 @@ const MovieDesc = ({ movies, click }) => {
     <div className={styles.modalBackdrop} onClick={click}>
       <div className={styles.movieModal} onClick={(e) => e.stopPropagation()}>
         <div className={styles.movieInfo}>
-          <img src={movie.Poster} alt={movie.Title} />
+          <img src={movies.Poster} alt={movie.Title} />
           <button className={styles.btnClose} onClick={click}>
             X
           </button>
