@@ -12,7 +12,7 @@ const App = () => {
   const [movies, setMovies] = useState([]);
 
   const apiKey = "b5835fbb";
-  const apiUrl = `http://omdbapi.com/?apikey=${apiKey}`;
+  const apiUrl = `https://omdbapi.com/?apikey=${apiKey}`;
 
   useEffect(() => {
     searchMovies("Batman");
