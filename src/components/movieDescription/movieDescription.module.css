@@ -100,21 +100,19 @@
   text-align: justify;
 }
 
-
 /*tablet*/
 @media screen and (max-width: 768px) {
   .movieModal {
     width: 550px;
   }
 
-  .containerMisc{
+  .containerMisc {
     padding-top: 1em;
   }
 }
 
-
 /*celular aqui*/
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
   .movieModal {
     width: 320px;
     margin-top: 2em;
@@ -133,7 +131,7 @@
     display: block;
   }
 
-  .movieType h1{
+  .movieType h1 {
     font-size: 16pt;
   }
 }
